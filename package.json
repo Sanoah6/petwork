@@ -1,0 +1,38 @@
+{
+  "name": "freelanceworkbackend",
+  "version": "1.0.0",
+  "description": "FreelanceWorkBackend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/squize31/FreelanceWorkBackend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/squize31/FreelanceWorkBackend/issues"
+  },
+  "homepage": "https://github.com/squize31/FreelanceWorkBackend#readme",
+  "dependencies": {
+    "@a2seven/yoo-checkout": "^1.1.4",
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^6.10.0",
+    "pg": "^8.14.1",
+    "socket.io": "^4.8.1",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
